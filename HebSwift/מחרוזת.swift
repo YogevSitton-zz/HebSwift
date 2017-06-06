@@ -9,10 +9,17 @@
 import Foundation
 
 struct מחרוזת {
-    private var string : String
+    internal var string : String
     
-    init(_ string: String = "") {
-        self.string = string
+    init() {
+        self.string = String()
     }
     
+    init(_ תו: תו) {
+        self.string = String(תו.character)
+    }
+}
+
+struct תו {
+    internal var character : Character
 }

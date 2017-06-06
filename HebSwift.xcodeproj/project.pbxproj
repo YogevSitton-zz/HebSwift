@@ -11,6 +11,10 @@
 		9D9C8A4E1EE6C6000023EBFB /* HebSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9C8A4D1EE6C6000023EBFB /* HebSwiftTests.swift */; };
 		9D9C8A501EE6C6000023EBFB /* HebSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D9C8A421EE6C6000023EBFB /* HebSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D9C8A5A1EE6C6F40023EBFB /* מחרוזת.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9C8A591EE6C6F40023EBFB /* מחרוזת.swift */; };
+		9DCB0CFC1EE6DC2A0030CCEC /* מצג.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCB0CFB1EE6DC2A0030CCEC /* מצג.swift */; };
+		9DCB0CFE1EE6DC4B0030CCEC /* שולטמצג.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCB0CFD1EE6DC4B0030CCEC /* שולטמצג.swift */; };
+		9DCB0D001EE6DC5B0030CCEC /* מרובע.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCB0CFF1EE6DC5B0030CCEC /* מרובע.swift */; };
+		9DCB0D021EE6DC710030CCEC /* צבע.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCB0D011EE6DC710030CCEC /* צבע.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +35,10 @@
 		9D9C8A4D1EE6C6000023EBFB /* HebSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HebSwiftTests.swift; sourceTree = "<group>"; };
 		9D9C8A4F1EE6C6000023EBFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D9C8A591EE6C6F40023EBFB /* מחרוזת.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "מחרוזת.swift"; sourceTree = "<group>"; };
+		9DCB0CFB1EE6DC2A0030CCEC /* מצג.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "מצג.swift"; sourceTree = "<group>"; };
+		9DCB0CFD1EE6DC4B0030CCEC /* שולטמצג.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "שולטמצג.swift"; sourceTree = "<group>"; };
+		9DCB0CFF1EE6DC5B0030CCEC /* מרובע.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "מרובע.swift"; sourceTree = "<group>"; };
+		9DCB0D011EE6DC710030CCEC /* צבע.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "צבע.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +84,10 @@
 				9D9C8A421EE6C6000023EBFB /* HebSwift.h */,
 				9D9C8A431EE6C6000023EBFB /* Info.plist */,
 				9D9C8A591EE6C6F40023EBFB /* מחרוזת.swift */,
+				9DCB0CFB1EE6DC2A0030CCEC /* מצג.swift */,
+				9DCB0CFD1EE6DC4B0030CCEC /* שולטמצג.swift */,
+				9DCB0CFF1EE6DC5B0030CCEC /* מרובע.swift */,
+				9DCB0D011EE6DC710030CCEC /* צבע.swift */,
 			);
 			path = HebSwift;
 			sourceTree = "<group>";
@@ -200,7 +212,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DCB0D021EE6DC710030CCEC /* צבע.swift in Sources */,
+				9DCB0D001EE6DC5B0030CCEC /* מרובע.swift in Sources */,
+				9DCB0CFC1EE6DC2A0030CCEC /* מצג.swift in Sources */,
 				9D9C8A5A1EE6C6F40023EBFB /* מחרוזת.swift in Sources */,
+				9DCB0CFE1EE6DC4B0030CCEC /* שולטמצג.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +422,7 @@
 				9D9C8A551EE6C6000023EBFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D9C8A561EE6C6000023EBFB /* Build configuration list for PBXNativeTarget "HebSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +431,7 @@
 				9D9C8A581EE6C6000023EBFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
